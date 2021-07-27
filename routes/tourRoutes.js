@@ -16,7 +16,7 @@ router
 
 router
   .route('/monthly-plan/:year')
-  .get(tourController.getMonthlyPlan);
+  .get(tourController.getMonthlyPlan);  
 
 router
   .route('/')
